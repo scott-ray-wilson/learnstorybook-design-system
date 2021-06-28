@@ -21,7 +21,7 @@ it("has a href attribute when rendering with linkWrapper", () => {
   expect(
     div.querySelector('a[href="https://storybook.js.org/tutorials/"]')
   ).not.toBeNull();
-  expect(div.textContent).toEqual("Link Text");
+  expect(div.textContent).toEqual("Link Text 2");
 
   ReactDOM.unmountComponentAtNode(div);
 });
